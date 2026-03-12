@@ -1,2 +1,3 @@
-# goit-html-css-js-template
-Template repository for GoIT HTML+CSS course
+# goit-markup=hw-03
+
+GoIT HTML+CSS homework #03
