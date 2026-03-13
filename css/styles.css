@@ -267,7 +267,6 @@ main {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
-/*  margin-bottom: 8px;*/
 }
 
 .team-item-job {
@@ -315,7 +314,6 @@ main {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-/*  margin-bottom: 8px;*/
 }
 
 .portfolio-item-job {
