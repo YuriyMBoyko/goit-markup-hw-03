@@ -70,7 +70,7 @@ main {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -209,17 +209,18 @@ main {
   display: flex;
   gap: 24px;
 }
-/*
+
 .feature-item {
-  width: 264px;
+  flex-basis: 264px;
 }
-*/
+
 .features-item-title {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -256,7 +257,7 @@ main {
 
 .team-item-image {
   width: 264px;
-  margin-bottom: 32px;
+/*  margin-bottom: 32px;*/
 }
 
 .team-item-content {
@@ -265,6 +266,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  padding: 32px 16px;
 }
 
 .team-item-worker {
@@ -296,7 +298,12 @@ main {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.portfolio-item {
+  flex-basis: 360px;
 }
 
 .portfolio-item-image {
